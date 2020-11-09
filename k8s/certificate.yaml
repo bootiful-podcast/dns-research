@@ -1,0 +1,13 @@
+apiVersion: networking.gke.io/v1beta2
+kind: ManagedCertificate
+metadata:
+  name: helloworld-certificate
+spec:
+  domains:
+  - bootifulpodcast.online
+  - studio.bootifulpodcast.online
+  - api.bootifulpodcast.online
+  # - studio.development.bootifulpodcast.online
+  # - api.development.bootifulpodcast.online
+  # - studio.production.bootifulpodcast.online
+  # - api.production.bootifulpodcast.online
